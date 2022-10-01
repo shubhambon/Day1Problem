@@ -1,0 +1,15 @@
+package com.example.operator;
+
+import java.util.Scanner;
+
+public class Operator {
+    public static void main(String args[]) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the 1st number");
+        int a = scan.nextInt();
+        System.out.println("Enter the 2nd number");
+        int b = scan.nextInt();
+        int c = a + b;
+        System.out.println(c);
+    }
+}
